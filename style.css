@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  max-width: 60rem;
+}
+
+canvas {
+  border: rgb(59, 76, 122) dashed 2px;
+  padding: 100px;
+  border-radius: 12px;
+  margin: auto;
+  margin-left: 22%;
+  margin-top: 10px;
+  position: relative;
+  background-color: #ccc;
+}
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+#text {
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+#stickman {
+  color: #ccc;
+}
+
+button {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 0.8rem;
+  font-family: inherit;
+  padding: 0.8rem 1.7rem;
+  cursor: pointer;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.h11 {
+  text-align: center;
+}
+#keyboardButtons {
+  margin: 4% 10% 5% 10%;
+}
+
+#row2 {
+  margin-left: 5%;
+}
+#row3 {
+  margin-left: 14%;
+}
+.reset {
+  margin-left: 43%;
+  border-radius: 12px;
+}
+
+#liveCount {
+  text-align: right;
+  margin-right: 42px;
+}
+
+#a {
+  margin-left: 40px;
+}
+
+#z {
+  margin-left: 100px;
+}
